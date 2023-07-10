@@ -1,5 +1,5 @@
 # Project Name
-📚 DGV Blog (Django, GraphQL, VUE)
+📚 DGV Blog (Django, GraphQL, Vue.js)
 
 # Description
 This is a blog project built using Django, GraphQL, and Vue.js. The blog allows users to create accounts, create posts, and view them.
