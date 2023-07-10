@@ -14,3 +14,24 @@ export default {
   name: 'App',
 }
 </script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+* + * {
+  margin-top: 1.5rem;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+}
+</style>
