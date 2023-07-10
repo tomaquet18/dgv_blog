@@ -5,16 +5,16 @@
 This is a blog project built using Django, GraphQL, and Vue.js. The blog allows users to create accounts, create posts, and view them.
 
 # Features
-✅ User Authentication: Users can create accounts and log in to the blog.
-✅ Post Creation: Authenticated users can create new blog posts.
-✅ Post Listing: Users can view a list of all the published blog posts.
-✅ Post Detail: Users can click on a specific blog post to view its details.
+✅ User Authentication: Users can create accounts and log in to the blog.<br>
+✅ Post Creation: Authenticated users can create new blog posts.<br>
+✅ Post Listing: Users can view a list of all the published blog posts.<br>
+✅ Post Detail: Users can click on a specific blog post to view its details.<br>
 ✅ GraphQL API: The project utilizes GraphQL for querying and manipulating data.
 
 # Technologies Used
-🔧 Django: Python-based web framework used for the backend development.
-🔧 GraphQL: Query language and runtime for APIs.
-🔧 Vue.js: JavaScript framework used for building the frontend user interface.
+🔧 Django: Python-based web framework used for the backend development.<br>
+🔧 GraphQL: Query language and runtime for APIs.<br>
+🔧 Vue.js: JavaScript framework used for building the frontend user interface.<br>
 
 # Installation
 To run the project locally, follow these steps:
