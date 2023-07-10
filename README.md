@@ -20,7 +20,7 @@ This is a blog project built using Django, GraphQL, and Vue.js. The blog allows 
 To run the project locally, follow these steps:
 1. Clone the repository:
 ```bash
-git clone https://github.com/tomaquet18/Django_blog
+git clone https://github.com/tomaquet18/dgv_blog
 ```
 2. Install the required dependencies:
 ```bash
