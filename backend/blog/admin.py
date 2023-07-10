@@ -1,5 +1,5 @@
 from django.contrib import admin
-from blogs.models import Profile, Post, Tag
+from blog.models import Profile, Post, Tag
 
 @admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
@@ -23,7 +23,7 @@ class PostAdmin(admin.ModelAdmin):
     )
     list_filter = (
         "published",
-        "published_date",
+        "publish_date",
     )
     list_editable = (
         "title",
