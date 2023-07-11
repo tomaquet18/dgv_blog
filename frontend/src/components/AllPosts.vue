@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2>Recent posts</h2>
+  <div class="container py-4">
+    <h2 class="text-center mb-4">Recent posts</h2>
     <PostList v-if="allPosts" :posts="allPosts" />
   </div>
 </template>

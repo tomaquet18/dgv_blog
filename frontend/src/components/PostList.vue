@@ -1,24 +1,22 @@
 <template>
-  <div>
-    <ol class="post-list">
-      <li class="post" v-for="post in publishedPosts" :key="post.title">
+  <div class="row">
+    <div class="col-md-4 mb-3" v-for="post in publishedPosts" :key="post.title">
+      <div class="post bg-light p-3">
         <span class="post__title">
-          <router-link
-            :to="`/post/${post.slug}`"
-          >{{ post.title }}: {{ post.subtitle }}</router-link>
+          <router-link :to="`/post/${post.slug}`" class="text-primary font-weight-bold">{{ post.title }}: {{ post.subtitle }}</router-link>
         </span>
         <span v-if="showAuthor">
-          by <AuthorLink :author="post.author" />
+          by <AuthorLink :author="post.author" class="text-muted" />
         </span>
-        <div class="post__date">{{ displayableDate(post.publishDate) }}</div>
+        <div class="post__date text-muted">{{ displayableDate(post.publishDate) }}</div>
         <p class="post__description">{{ post.metaDescription }}</p>
-        <ul>
-          <li class="post__tags" v-for="tag in post.tags" :key="tag.name">
-            <router-link :to="`/tag/${tag.name}`">#{{ tag.name }}</router-link>
+        <ul class="list-inline">
+          <li class="list-inline-item post__tags" v-for="tag in post.tags" :key="tag.name">
+            <router-link :to="`/tag/${tag.name}`" class="text-muted">#{{ tag.name }}</router-link>
           </li>
         </ul>
-      </li>
-    </ol>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -65,6 +63,7 @@ export default {
 .post {
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
+  border-radius: 20px;
 }
 
 .post__title {
